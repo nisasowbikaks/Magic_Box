@@ -1,0 +1,96 @@
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #ececec;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+        background: linear-gradient(to bottom right, #ffc75f, #c6641a); 
+        background-image: url('gamebackground.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h2 {
+        color: #833c3c;
+        background: linear-gradient(to bottom right, #84db6c, #399fc4);
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        opacity: 0.95;
+    }
+
+    p {
+        color: #a7b956;
+        background: linear-gradient(to bottom right, #5895bd, #c4399f);
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #msg {
+        color: #41f0e7;
+        background: linear-gradient(to bottom right, #58bbbd, #bb3318);
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    
+    
+    input[type="number"] {
+        padding: 12px;
+        font-size: 16px;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        margin: 10px 0;
+        width: 250px;
+        outline: none;
+        transition: border-color 0.3s;
+        background-color: #fff;
+    }
+
+    input[type="number"]:focus {
+        border-color: #34a7c4;
+    }
+
+    button {
+        background-color: #c56ec2;
+        background-image: linear-gradient(rgb(210, 152, 162) , rgb(175, 91, 91));
+        color: rgb(40, 23, 8);
+        font-size: 18px;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 150px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+        background-color: #feb47b; 
+        transform: scale(1.05);
+    }
+
+    #msg {
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .congrats {
+        color: #4caf50;
+    }
+
+    .low {
+        color: #ff9800;
+    }
+
+    .high {
+        color: #f44336;
+    }
+
