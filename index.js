@@ -7,6 +7,7 @@ document.getElementById('btn').addEventListener('click',function(){
   if(guess===randomNumber){
     boxcount++;
     Lock.src='opengift.jpg';
+    alert(`Congratulations! You successfully opened Box ${boxcount}.`);
     display("Congratulations! You opened Box:"+boxcount);
     randomNumber = Math.floor(Math.random() * 100) + 1; 
     attempts = 10; 
